@@ -29,7 +29,7 @@ const Menu = () => {
             <h1 className="text-3xl md:text-4xl font-bold"> <span className='font-bold text-6xl'>Menú</span> <br /> Tortas El Lechón</h1>
             <p className="mt-2 text-sm md:text-base opacity-90">Explora nuestros platillos más populares. Cocina auténtica y porciones generosas.</p>
             <div className="mt-4">
-              <Link to="/pedido" className="inline-block bg-red-600 text-white px-5 py-2 rounded-full font-semibold shadow-lg hover:bg-red-700 transition-colors">Ordena ahora</Link>
+              <Link to="/contacto" className="inline-block bg-red-600 text-white px-5 py-2 rounded-full font-semibold shadow-lg hover:bg-red-700 transition-colors">Ordena ahora</Link>
             </div>
           </motion.div>
         </div>
@@ -73,7 +73,7 @@ const Menu = () => {
                 <p className="text-gray-600 mt-2 text-sm">{d.desc}</p>
                 <div className="mt-4 flex items-center justify-between">
                   <Link to="/contacto" className="text-sm text-gray-700 hover:underline">Preguntar</Link>
-                  <Link to="/pedido" className="bg-red-600 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-sm hover:bg-red-700">Ordenar</Link>
+                  <Link to="/contacto" className="bg-red-600 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-sm hover:bg-red-700">Ordenar</Link>
                 </div>
               </div>
             </motion.article>

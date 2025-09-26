@@ -41,7 +41,7 @@ const Navbar = () => {
               ))}
               {/* CTA */}
               <Link
-                to="/pedido"
+                to="/contacto"
                 className="ml-4 bg-white text-red-600 px-4 py-2 rounded-full font-semibold shadow-md hover:scale-105 transition-transform"
               >
                 Ordena ahora
@@ -83,7 +83,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <Link
-                to="/pedido"
+                to="/contacto"
                 onClick={() => setIsOpen(false)}
                 className="block bg-white text-red-600 px-4 py-2 rounded-full text-center font-semibold shadow-md hover:scale-105 transition-transform"
               >
