@@ -6,13 +6,13 @@ const Menu = () => {
   const [category, setCategory] = useState('all');
 
   const dishes = [
-    { name: 'Torta de Lechón', desc: 'Lechón asado, cebolla encurtida y salsa especial', price: '$120', img: '/torta_lechon.jpg', category: 'tortas' },
+    { name: 'Torta de Lechón', desc: 'Lechón asado, cebolla encurtida y salsa especial', price: '$120', img: '/tortas_lechon.jpg', category: 'tortas' },
     { name: 'Torta de Jamón', desc: 'Pan artesanal, jamón selecto y vegetales frescos', price: '$60', img: '/torta_jamon.jpg', category: 'tortas' },
     { name: 'Tacos al Pastor', desc: 'Marinado tradicional con piña asada', price: '$80', img: '/tacos_pastor.jpg', category: 'tacos' },
     { name: 'Quesadilla de Queso', desc: 'Queso fundido en tortilla hecha al comal', price: '$60', img: '/quesadilla.jpg', category: 'antojitos' },
-    { name: 'Chiles Rellenos', desc: 'Rellenos con queso y bañados en salsa roja', price: '$140', img: '/chiles_rellenos.jpg', category: 'antojitos' },
+    { name: 'Chiles Rellenos', desc: 'Rellenos con queso y bañados en salsa roja', price: '$140', img: '/chile_relleno.jpg', category: 'antojitos' },
     { name: 'Enchiladas Verdes', desc: 'Pollo deshebrado y queso', price: '$110', img: '/enchiladas_verdes.jpg', category: 'antojitos' },
-    { name: 'Sopa del Día', desc: 'Preparada con ingredientes frescos', price: '$70', img: '/sopa_dia.jpg', category: 'otros' },
+    { name: 'Barbacoa', desc: 'Preparada con ingredientes frescos', price: '$70', img: '/barbacoa.jpg', category: 'otros' },
   ];
 
   const categories = useMemo(() => ['all', ...Array.from(new Set(dishes.map(d => d.category)))], []);
