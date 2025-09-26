@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Contacto = () => {
   // REPLACE_WITH_YOUR_NUMBER: Use international format without +, e.g. 5213312345678 for Mexico
-  const STORE_WHATSAPP_NUMBER = '528781451570' // <- cambia este número por el de tu negocio
+  const STORE_WHATSAPP_NUMBER = '528787701139' // <- cambia este número por el de tu negocio
 
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
